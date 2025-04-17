@@ -41,6 +41,28 @@
             "text": "I'm planning a week-long trip to Japan with my family. Search for flight options from New York to Tokyo using Google Flights, find hotel recommendations in Kyoto with Google Hotels, create a daily itinerary with Google Calendar, and generate a 45-second audio guide using TTS PlayAI v3 to summarize the plan.",
             "images": []
         },
+
+        "agents": ["google-finance", "tts-playAI-v3", "slack"],
+        "tags": ["finance", "briefing", "automation", "productivity"]
+    },
+    {
+        "title": "Daily Market Briefing & Audio Summary",
+        "query": {
+            "text": "Generate a daily investment briefing with current stock data (AAPL, TSLA, GOOGL, NVDA, top 3 movers), market sentiment analysis, and a 30-60 second audio narration summary. Provide the final briefing text and audio link, ready for sending via Slack.",
+            "images": []
+        },
+        "agents": ["google-finance", "tts-playAI-v3", "slack"],
+        "tags": ["finance", "briefing", "automation", "productivity"]
+    },
+    {
+        "title": "Daily Market Briefing & Audio Summary",
+        "query": {
+            "text": "Generate a daily investment briefing with current stock data (AAPL, TSLA, GOOGL, NVDA, top 3 movers), market sentiment analysis, and a 30-60 second audio narration summary. Provide the final briefing text and audio link, ready for sending via Slack.",
+            "images": []
+        },
+        "agents": ["google-finance", "tts-playAI-v3", "slack"],
+        "tags": ["finance", "briefing", "automation", "productivity"]
+
         "agents": ["google-flights", "google-hotels", "google-calendar", "tts-playai-v3", "slack"],
         "tags": ["travel", "planning", "automation", "family", "audio"]
     },
@@ -61,5 +83,6 @@
         },
         "agents": ["spotify-api"],
         "tags": ["music", "playlist-creation", "automation"]
+
     }
 ]
