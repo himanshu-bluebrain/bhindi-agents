@@ -34,5 +34,24 @@
         },
         "agents": ["perplexity-search", "fluxproultra-imagegen", "fluxdev-imagegen", "geminivision", "tts-playAI-v3"],
         "tags": ["research", "creative-design", "presentation-assets", "trend-forecasting"]
+    },
+    {
+        "title": "Futuristic Fashion: Research to Showcase",
+        "query": {
+            "text": "Research what futuristic fashion trends might include with a focus on wearable tech, sustainable fabrics, and human-AI collaboration. Create an image prompt based on your findings, generate the image for my visual showcase, produce audio narration describing the outfit, and analyze the generated image quality using Gemini Vision.",
+            "images": []
+        },
+        "agents": ["perplexity-search", "fluxproultra-imagegen", "fluxdev-imagegen", "geminivision", "tts-playAI-v3"],
+        "tags": ["research", "creative-design", "presentation-assets", "trend-forecasting"]
+    },
+    {
+        "title": "Travel Itinerary Planner & Audio Guide",
+        "query": {
+            "text": "I'm planning a week-long trip to Japan with my family. Search for flight options from New York to Tokyo using Google Flights, find hotel recommendations in Kyoto with Google Hotels, create a daily itinerary with Google Calendar, and generate a 45-second audio guide using TTS PlayAI v3 to summarize the plan.",
+            "images": []
+        },
+        "agents": ["google-flights", "google-hotels", "google-calendar", "tts-playai-v3", "slack"],
+        "tags": ["travel", "planning", "automation", "family", "audio"]
     }
 ]
+
