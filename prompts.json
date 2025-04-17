@@ -61,6 +61,15 @@
         },
         "agents": ["google-flights", "google-hotels", "google-calendar", "tts-playai-v3", "slack"],
         "tags": ["travel", "planning", "automation", "family", "audio"]
+    },
+    {
+        "title": "Travel Itinerary Planner & Audio Guide",
+        "query": {
+            "text": "I'm planning a week-long trip to Japan with my family. Search for flight options from New York to Tokyo using Google Flights, find hotel recommendations in Kyoto with Google Hotels, create a daily itinerary with Google Calendar, and generate a 45-second audio guide using TTS PlayAI v3 to summarize the plan.",
+            "images": []
+        },
+        "agents": ["google-flights", "google-hotels", "google-calendar", "tts-playai-v3", "slack"],
+        "tags": ["travel", "planning", "automation", "family", "audio"]
     }
 ]
 
