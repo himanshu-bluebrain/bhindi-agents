@@ -43,5 +43,23 @@
         },
         "agents": ["google-finance", "tts-playAI-v3", "slack"],
         "tags": ["finance", "briefing", "automation", "productivity"]
+    },
+    {
+        "title": "Daily Market Briefing & Audio Summary",
+        "query": {
+            "text": "Generate a daily investment briefing with current stock data (AAPL, TSLA, GOOGL, NVDA, top 3 movers), market sentiment analysis, and a 30-60 second audio narration summary. Provide the final briefing text and audio link, ready for sending via Slack.",
+            "images": []
+        },
+        "agents": ["google-finance", "tts-playAI-v3", "slack"],
+        "tags": ["finance", "briefing", "automation", "productivity"]
+    },
+    {
+        "title": "Daily Market Briefing & Audio Summary",
+        "query": {
+            "text": "Generate a daily investment briefing with current stock data (AAPL, TSLA, GOOGL, NVDA, top 3 movers), market sentiment analysis, and a 30-60 second audio narration summary. Provide the final briefing text and audio link, ready for sending via Slack.",
+            "images": []
+        },
+        "agents": ["google-finance", "tts-playAI-v3", "slack"],
+        "tags": ["finance", "briefing", "automation", "productivity"]
     }
 ]
