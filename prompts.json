@@ -36,11 +36,12 @@
         "tags": ["research", "creative-design", "presentation-assets", "trend-forecasting"]
     },
     {
-        "title": "Daily Market Briefing & Audio Summary",
+        "title": "Travel Itinerary Planner & Audio Guide",
         "query": {
-            "text": "Generate a daily investment briefing with current stock data (AAPL, TSLA, GOOGL, NVDA, top 3 movers), market sentiment analysis, and a 30-60 second audio narration summary. Provide the final briefing text and audio link, ready for sending via Slack.",
+            "text": "I'm planning a week-long trip to Japan with my family. Search for flight options from New York to Tokyo using Google Flights, find hotel recommendations in Kyoto with Google Hotels, create a daily itinerary with Google Calendar, and generate a 45-second audio guide using TTS PlayAI v3 to summarize the plan.",
             "images": []
         },
+
         "agents": ["google-finance", "tts-playAI-v3", "slack"],
         "tags": ["finance", "briefing", "automation", "productivity"]
     },
@@ -61,5 +62,27 @@
         },
         "agents": ["google-finance", "tts-playAI-v3", "slack"],
         "tags": ["finance", "briefing", "automation", "productivity"]
+
+        "agents": ["google-flights", "google-hotels", "google-calendar", "tts-playai-v3", "slack"],
+        "tags": ["travel", "planning", "automation", "family", "audio"]
+    },
+    {
+        "title": "Bio related question answering",
+        "query": {
+            "text": "I'm a bio researcher and I need to answer a question about a specific gene. Please use the latest research papers and articles to answer the question.",
+            "images": []
+        },
+        "agents": ["perplexity-search", "slack"],
+        "tags": ["research", "biology", "question-answering"]
+    },
+    {
+        "title": "Spotify playlist creation",
+        "query": {
+            "text": "I'm a music lover and I want to create a playlist of my favorite songs. Please use the Spotify API to create a playlist and add the songs to it.",
+            "images": []
+        },
+        "agents": ["spotify-api"],
+        "tags": ["music", "playlist-creation", "automation"]
+
     }
 ]
