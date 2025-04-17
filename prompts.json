@@ -34,4 +34,5 @@
         },
         "agents": ["perplexity-search", "fluxproultra-imagegen", "fluxdev-imagegen", "geminivision", "tts-playAI-v3"],
         "tags": ["research", "creative-design", "presentation-assets", "trend-forecasting"]
-    },
+    }
+]
