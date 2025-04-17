@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Daily Market Briefing & Audio Summary",
+        "query": {
+            "text": "Generate a daily investment briefing with current stock data (AAPL, TSLA, GOOGL, NVDA, top 3 movers), market sentiment analysis, and a 30-60 second audio narration summary. Provide the final briefing text and audio link, ready for sending via Slack.",
+            "images": []
+        },
+        "agents": ["google-finance", "tts-playAI-v3", "slack"],
+        "tags": ["finance", "briefing", "automation", "productivity"]
+    },
+    {
+        "title": "Enchanted Forest: Visual Inspiration & Storybook Illustration",
+        "query": {
+            "text": "Search for enchanted forest images on Unsplash with misty air and vibrant foliage, analyze the lighting and textures like soft moss and glowing fireflies, create a prompt for a fantasy forest scene with magical glowing trees, and generate this image for my storybook illustration.",
+            "images": []
+        },
+        "agents": ["unsplash", "geminivision", "fluxproultra-imagegen", "fluxdev-imagegen"],
+        "tags": ["inspiration", "visual-analysis", "image-generation", "storytelling", "creative-assets"]
+    },
+    {
+        "title": "Tech Guru Opinions to Smart Purchase Advice",
+        "query": {
+            "text": "I'm planning to buy a new phone and need expert opinions before deciding. Please find the 2 most recent and popular smartphone review videos from MKBHD and Mrwhosetheboss, provide their YouTube links, analyze each video's key points in detail, and recommend which phone I should consider purchasing based on what these tech reviewers have to say.",
+            "images": []
+        },
+        "agents": ["youtube-search", "youtube-analyzer"],
+        "tags": ["research", "technology", "comparison", "decision-making", "communication"]
+    },
+    {
+        "title": "Futuristic Fashion: Research to Showcase",
+        "query": {
+            "text": "Research what futuristic fashion trends might include with a focus on wearable tech, sustainable fabrics, and human-AI collaboration. Create an image prompt based on your findings, generate the image for my visual showcase, produce audio narration describing the outfit, and analyze the generated image quality using Gemini Vision.",
+            "images": []
+        },
+        "agents": ["perplexity-search", "fluxproultra-imagegen", "fluxdev-imagegen", "geminivision", "tts-playAI-v3"],
+        "tags": ["research", "creative-design", "presentation-assets", "trend-forecasting"]
+    },
